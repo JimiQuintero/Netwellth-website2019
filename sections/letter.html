@@ -1,0 +1,70 @@
+<section class="letter-cont">
+    <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 text-center">
+            <div class="letter-text-1">
+              Wellth<span class="letter-str">Letter<sup>SM</sup></span>
+            </div>
+            <div class="letter-text-2">
+              A bi weekly newsletter filled with useful and practical information for
+              you to improve your Wealth and Wellness.
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <form id="wellth_letter" name="sentMessage">
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <input
+                    class="input"
+                    id="email_sub"
+                    type="email"
+                    placeholder="Enter your e-mail"
+                    required="required"
+                    data-validation-required-message="Please enter your email address."
+                  />
+                  <div class="input-group-append">
+                    <button
+                      type="submit"
+                      class="btn btn-outline material-icons boton btn_subscribe_sec"
+                      data-toggle="modal"
+                    >
+                      arrow_forward
+                    </button>
+                  </div>
+                </div>
+                <span id="SubscribeHelp" class="letter-text-3">
+                  Your email address is safe with us, and will never be sold or shared
+                  with a third party.
+                </span>
+                <div
+                  id="alert_popup"
+                  class="alert alert-success alert-dismissible fade "
+                >
+                  <button type="button" class="close btn_close">&times;</button>
+                  <strong>Success! </strong> Mail Sent Successfully!!!
+                </div>
+                <div id="alert" class="alert alert-danger alert-dismissible fade ">
+                  <button type="button" class="close btn_close">&times;</button>
+                  <strong>Failed! </strong> Please Fill the Email Field!!!
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+</section>
+<div class="modal fade" id="wellthModal" tabindex="-1" role="dialog" aria-labelledby="wellthModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">WellthLetter</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center">
+        We’re excited to meet you and will send you practical information and insights to improve both!
+      </div>
+    </div>
+  </div>
+</div>

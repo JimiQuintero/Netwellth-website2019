@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://netwellthbenefits.com%{REQUEST_URI} [L,R=301]
+ErrorDocument 404 https://netwellthbenefits.com/comingsoom.html 

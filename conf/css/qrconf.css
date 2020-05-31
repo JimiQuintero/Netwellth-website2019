@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap");
+
+body {
+  font-family: 'Quicksand';
+  background-color: white;
+  color: #555555;
+}
+a {
+  text-decoration: none;
+}
+.container{
+  max-width: 600px;
+}
+
+header {
+  min-height: 100px;
+}
+
+header img{
+  width: 200px;
+}
+
+.logo{
+  width: 20%;
+  margin-right: 20px;
+}
+
+sup {
+  font-size: 40%;
+  vertical-align: super;
+}
+
+.congr{
+  font-size: 35px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.url-content{
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 5px;
+  -webkit-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.content{
+  margin-top: 20px;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.bg-magenta{
+  background-color: #EA1067;
+  color:#ffffff;
+}
+
+.bg-blue{
+  background-color: #0098FE;
+  color:#ffffff;
+}
+
+.bg-gold{
+  background-color: #C89532;
+  color:#ffffff;
+}
+
+.bg-white{
+  background-color:#ffffff;
+  border: solid thin #000000;
+  color:#2E8CFF;
+}
+
+.texto {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+strong{
+  font-weight: 600;
+}
+
+.texto .pow{
+  font-size: 50%;
+  font-weight: 300;
+  margin-top: -15px;
+}
+
+.zoom{
+  font-size: 70px;
+  font-weight: 600;
+  color: #2E8CFF;
+}
+
+.zoom p {
+  margin-bottom: 0px !important;
+}
+
+hr {
+  width: 70%;
+  border-top: 2px solid rgba(0,0,0);
+}
+
+.news{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.news-text {
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 60%;
+}
+
+.news-text a {
+  text-decoration: none;
+  color: #555555;
+}
+
+#amirPng {
+  width: 300px;
+  
+}
+
+#cargo{
+  font-size: 40px;
+  margin-top:20px;
+}
+#wellthCoach{
+  font-size: 18px;
+  margin-bottom:30px;
+}
+
+.conect{
+  font-size: 20px;
+}
+
+.social2{
+  width: 60px;
+}
+
+
+
+.contact{
+  font-size: 22px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+
+
+.contact a{
+  text-decoration: none;
+  color: #555555;
+}
+
+.learn {
+  width: 230px;
+  margin-left: 30px;
+}
+
+.icon {
+  width: 45px;
+  margin-left: 30px;
+}
+
+.aling{
+  width: 300px;
+}
+
+.addme{
+  width: 280px;
+  max-height: 80px;
+}
+
+footer{
+  background-color: #333454;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top:0px;
+  font-size: 15px;
+}
+
+
+
+.magenta-line {
+  min-height: 8px;
+  background-color: #EA1067;
+}
+
+
+@media (max-width:767.5px){
+
+  .url-content, .content{
+    width: 100%;
+    margin-left: 0%;
+  }
+
+}
+
+@media (max-width:560px){
+  h1 {
+    font-size: 2rem;
+  }
+
+  .congr {
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: 500;
+  }
+  
+  .contact {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
